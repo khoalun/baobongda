@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+}
+
+.header-inner {
+    display: flex;
+    background-color: greenyellow;
+    width: 1300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.date {
+    padding-right: 48px;
+}
+
+.header-nav {
+    padding-right: 300px;
+}
+
+.header-nav ul,
+li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-nav ul,
+li:hover {
+    border-bottom: 2px solid black;
+}
+
+.header1 {
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.header-inner1 {
+    display: flex;
+    width: 1300px;
+    background-color: greenyellow;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    margin-top: 8px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+}
+
+body {
+    color: #28262c;
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+    line-height: 1.2;
+}
+
+.intro-logo1 {
+    display: flex;
+    margin-right: 20px;
+}
+
+.fab {
+    justify-content: space-evenly;
+    display: flex;
+    padding-right: 20px;
+}
+
+.header-nav1 {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+    line-height: 1.2;
+}
+
+.tab-nav {
+    display: flex;
+    flex: 1;
+    padding-right: 74px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    position: relative;
+    width: 1300px;
+}
+
+.detail-header {
+    color: #75285E;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14.5pt;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: left;
+}
+
+.column1 {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin: auto;
+    width: 1300px;
+}
+
+.detail-column1 {
+    margin-top: 200px;
+    padding-left: 50px;
+}
+
+.detail-column2 {
+    margin-top: 200px;
+    padding-right: 75px;
+    float: left;
+    border-radius: 2px solid black;
+}
+
+.text1 {
+    background-color: #F0F0F0;
+    image-rendering: auto;
+}
+
+.text-header {
+    line-height: 1.8em;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.detail-column3 {
+    margin-top: 200px;
+    padding-right: 20px;
+    position: relative;
+    border: 0.5px solid black;
+    box-sizing: content-box;
+    height: fit-content;
+}
+
+.detail-corner {
+    position: relative;
+    font-size: 18px;
+    background-size: cover;
+    background-image: url("https://inspirationfeed.com/wp-content/uploads/2020/01/chesser-800x561.jpg");
+    color: white;
+}
+
+.detail-column3 p {
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+}
+
+.menu-detail ul {
+    height: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-detail {
+    display: flex;
+    background: #EEE;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px 4px 0 0;
+    color: #666;
+    cursor: pointer;
+    font-weight: bold;
+    height: 28px;
+    line-height: 30px;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+.menu-detail ul li {
+    display: flex;
+}
