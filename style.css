@@ -150,12 +150,12 @@ body {
 .text-header {
     line-height: 1.8em;
     font-size: smaller;
-    font-style: italic;
+    width: 386px;
 }
 
 .detail-column3 {
     margin-top: 200px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     position: relative;
     border: 0.5px solid black;
     box-sizing: content-box;
@@ -191,6 +191,10 @@ body {
     font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
 }
 
+.detail-cover {
+    width: min-content;
+}
+
 .detail-cover .detail-p {
     line-height: 1.8em;
     font-size: smaller;
@@ -220,11 +224,10 @@ body {
 ._section_title_separator_1 {
     width: 100%;
     height: 8px;
-    CLEAR: both;
     border-bottom: 1px solid #75285E;
     margin-bottom: 10px;
     padding: 4px 11px 0 0;
-    margin-top: 21px;
+    margin-top: 80px;
 }
 
 .logo-title {
@@ -249,4 +252,53 @@ body {
 .logo-club1 {
     display: flex;
     margin: auto;
+}
+
+.slideshow_pagination {
+    float: right;
+}
+
+.landing-page {
+    display: flex;
+}
+
+.ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.header-page {
+    font-weight: normal;
+    font-size: 12pt;
+    height: 23px;
+    width: 310px;
+    padding: 5px 0px 0px 5px;
+    margin-bottom: 8px;
+    background-color: #BDB76B;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.highlight-text {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #75285E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left-header {
+    background-image: url("https://www.solidbackgrounds.com/images/2880x1800/2880x1800-purple-heart-solid-color-background.jpg");
+    color: white;
+    width: 375px;
+    margin-top: 25px;
+}
+
+.image2 {
+    width: -webkit-fill-available;
 }
